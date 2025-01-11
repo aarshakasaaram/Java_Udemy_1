@@ -2,7 +2,6 @@ package Arrays;
 
 public class Workbook614 {
     public static void main(String[] args) {
-        // Task 3 – Create a 2D array with 100 rows and 10 columns.
         int[][] array = new int[100][10];
 
         for (int i = 0; i < array.length; i++) {

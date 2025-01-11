@@ -72,12 +72,9 @@ public class Tic_Tac_Toc {
     public static int checkWin(char[][] board) {
         int rows = checkRows(board);
 
-        // Math.abs returns the absolute value of a given number, removing any negative
-        // sign.
-        if (Math.abs(rows) == 3)
-            return rows; // If the block of code consists of only one line, you can omit the curly
-        // braces.
 
+        if (Math.abs(rows) == 3)
+            return rows;
         int columns = checkColumns(board);
         if (Math.abs(columns) == 3)
             return columns;

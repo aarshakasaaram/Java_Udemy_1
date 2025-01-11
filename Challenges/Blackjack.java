@@ -65,7 +65,7 @@ public class Blackjack {
         } else {
             System.out.println("Dealer wins!");
         }
-        //For tasks 9 to 13, see the article: Blackjack Part II.
+
         scan.close();
 
     }
